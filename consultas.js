@@ -63,7 +63,7 @@ const prepararHATEOAS = (joyas) => {
     .map((j) => {
       return {
         name: j.nombre,
-        href: `/joyas/joya${j.id}`,
+        href: `/joyas/joya/${j.id}`,
       };
     })
     .slice(0, 4);
